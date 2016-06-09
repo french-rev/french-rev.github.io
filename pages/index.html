@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="UTF-8" />
+
+	<title>Napoleon Bonaparte</title>
+
+	<!-- Behavioral Metadata -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Core Metadata -->
+	<meta name="title" content="The French Revolution">
+	<meta name="description" content="The French Revolution was a period of expansion of the French Empire from 1789 to 1799, largely led by Napoleon.">
+	<meta name="keywords" content="french, revolution">
+
+	<!-- Open Graph Metadata -->
+	<meta property="og:site_name" content="The French Revolution">
+	<meta property="og:title" content="The French Revolution">
+	<meta property="og:author" content="Sam Olaogun, Adam Papenhausen">
+	<meta property="og:description" content="The French Revolution was a period of expansion of the French Empire from 1789 to 1799, largely led by Napoleon.">
+	<meta property="og:url" content="">
+
+	<!-- Styles -->
+	<link href='/styles.css' type='text/css' rel='stylesheet'>
+	<link href="/normalize.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/jquery.css">
+
+	<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+
+	<!-- Scipts -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="vendors/jquery.easings.min.js"></script>
+	<script type="text/javascript" src="vendors/scrolloverflow.min.js"></script>
+	<script type="text/javascript" src="/assets/scripts/jquery.fullPage.js"></script>
+
+</head>
+
+<body>
+
+	<div id="fullpage">
+		<!-- Jumbo -->
+		<div class="section">
+			<div class='jumbo'>
+				<div class='jumbo-container'>
+					<!-- Head -->
+					<!--<nav>
+                        <ul class="inline">
+                            <li class="list-item refStage1">Stage 01</li>
+                            <li class="list-item refStage2">Stage 02</li>
+                            <li class="list-item refStage3">Stage 03</li>
+                            <li class="list-item refFigures">Important Figures</li>
+                        </ul>
+                    </nav>-->
+					<!--<svg height="1" width="1000">
+                        <line x1="0" y1="0" x2="1000" y2="0" style="stroke: #FFFFFF; stroke-width: 1"></line>
+                    </svg>-->
+
+					<!-- Title -->
+					<div class='title'>
+
+						<h3>Sam Olaogun &plus; Adam Papenhrausen</h3>
+
+						<svg height="60" width="2" class="hairline">
+							<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+						</svg>
+
+						<a>NAPOLEON</a>
+
+						<svg height="60" width="2">
+							<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+						</svg>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class='prelude'>
+				<div class='title'>
+
+					<h3>Napoleon Bonaparte</h3>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+					</svg>
+
+					<a href="pages/bio.html">BIOGRAPHY</a>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+					</svg>
+
+					<p>Background &amp; heritage; political ideals; role within the Directory, the Consulate, and the Empire; domestic reforms; military strategy in Europe; downfall of military executions</p>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class='stage-01'>
+				<div class='title'>
+
+					<h3>Napoleon Bonaparte</h3>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+					</svg>
+
+					<a href="pages/directory.html">THE DIRECTORY</a>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+					</svg>
+
+					<p>Structure; goal; significance in context of the Revolution; reasons contributing to its demise.</p>
+				</div>
+			</div>
+		</div>
+		<div class="section">
+			<div class='stage-02'>
+				<div class='title'>
+
+					<h3>Napoleon Bonaparte</h3>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>x
+					</svg>
+
+					<a href="consulate.html">THE CONSULATE</a>
+
+					<svg height="60" width="2">
+						<line x1="0" y1="0" x2="0" y2="60" style="stroke: #FFFFFF; stroke-width: 1"></line>
+					</svg>
+
+					<p>Structure; goal; significance in the context of the Revolution.</p>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- JQuery/JavaScript -->
+	<script>
+		$(document).ready(function () {
+			$("body").fadeIn(100);
+			$('#fullpage').fullpage({
+				anchors: ["intro", "bio", "directory", "consulate"]
+			});
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+/* Medium Condensed */
+
+@font-face {
+    font-family: 'din-cond-med';
+    src: url('fonts/din-cond-med.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Bold Condensed */
+
+@font-face {
+    font-family: 'din-cond-bold';
+    src: url('fonts/din-cond-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Light Condensed */
+
+@font-face {
+    font-family: 'din-cond-light';
+    src: url('fonts/din-cond-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Condensed */
+
+@font-face {
+    font-family: 'din-cond';
+    src: url('fonts/din-cond.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Light */
+
+@font-face {
+    font-family: 'din-light';
+    src: url('fonts/din-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*  */
+
+@font-face {
+    font-family: 'din';
+    src: url('fonts/din.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* Ultralight */
+
+@font-face {
+    font-family: 'din-ultra';
+    src: url('fonts/din-ultra.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption);

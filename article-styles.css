@@ -1,0 +1,312 @@
+::selection {
+	background-color: #0063D6;
+}
+
+
+/* Medium Condensed */
+
+@font-face {
+	font-family: 'din-cond-med';
+	src: url('fonts/din-cond-med.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Bold Condensed */
+
+@font-face {
+	font-family: 'din-cond-bold';
+	src: url('fonts/din-cond-bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Light Condensed */
+
+@font-face {
+	font-family: 'din-cond-light';
+	src: url('fonts/din-cond-light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Condensed */
+
+@font-face {
+	font-family: 'din-cond';
+	src: url('fonts/din-cond.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Light */
+
+@font-face {
+	font-family: 'din-light';
+	src: url('fonts/din-light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/*  */
+
+@font-face {
+	font-family: 'din';
+	src: url('fonts/din.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Ultralight */
+
+@font-face {
+	font-family: 'din-ultra';
+	src: url('fonts/din-ultra.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif+Caption);
+body {
+	background-color: #FFFFFF;
+	left: 0;
+	top: 0;
+}
+
+.one {
+	top: 100%;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+
+a,
+h3 {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.title p {
+	font-family: 'PT Serif Caption';
+	color: white;
+	font-size: 0.8rem;
+	line-height: 1.6rem;
+	margin-top: 30px;
+	margin-left: 18%;
+	margin-right: 18%;
+	text-align: center;
+	width: 64%;
+	position: absolute;
+	-webkit-transition: 0.5s ease-in-out;
+}
+
+.title p:hover {
+	opacity: 0.5;
+	-webkit-transition: 0.5s ease;
+	text-shadow: 10px 10px 30px #000000;
+	padding-bottom: 2px;
+}
+
+h3 {
+	color: #F6F6F6;
+	font-family: 'din-cond-light';
+	font-size: 1.8rem;
+	letter-spacing: 0.4rem;
+	line-height: 2rem;
+	margin-bottom: 40px;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+}
+
+h3:hover {
+	transition: 0.5s ease;
+	opacity: 0.5;
+	font-size: 1.7rem;
+}
+
+h1 {
+	color: #F6F6F6;
+	font-family: 'din-ultra';
+	font-size: 10rem;
+	letter-spacing: 20px;
+	line-height: 8rem;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	transition: 0.5s ease;
+}
+
+.prelude a {
+	display: block;
+	color: #FFFFFF;
+	font-size: 6rem;
+	margin-top: 0px;
+	font-family: 'din-ultra';
+	letter-spacing: 40px;
+	text-align: center;
+	padding-left: 40px;
+	margin-top: 30px;
+	line-height: 6rem;
+	margin-bottom: 20px;
+	-webkit-transition: 0.5s ease;
+}
+
+.prelude a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.prelude a:hover {
+	opacity: 0.5;
+	text-shadow: 10px 10px 30px #000000;
+	-webkit-transition: 0.5s ease;
+	font-size: 5.6rem;
+}
+
+.title {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.prelude {
+	top: 0;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	background-size: cover=;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/consulate.jpeg');
+}
+
+.bio {
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('bio.jpeg');
+	background-size: cover;
+}
+
+.prelude .title {
+	width: 100%;
+	vertical-align: middle;
+	text-align: center;
+	position: absolute;
+}
+
+.text {
+	top: 100%;
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+#num {
+	color: #8C8C8C;
+	font-family: din-cond-med;
+	font-size: 2rem;
+	margin-top: 4%;
+}
+
+.text-left #num {
+	margin-left: 10%;
+}
+
+.text-right #num {
+	margin-right: 10%;
+	text-align: right;
+	display: block;
+}
+
+#title {
+	color: #1A1A1A;
+	font-family: din-cond-med;
+	font-size: 2rem;
+}
+
+.text-left #title {
+	margin-left: 10%;
+}
+
+.text-right #title {
+	margin-right: 10%;
+	text-align: right;
+	display: block;
+}
+
+#dark {
+	color: #8C8C8C;
+}
+
+.image {
+	margin-top: 0%;
+	width: 100%;
+	height: 500px;
+	background-size: cover;
+	display: inline-block;
+}
+
+.bio-1 {
+	background-image: url(/bio-1.jpg);
+}
+
+#pap {
+	color: #B3B3B3;
+	width: 100%;
+	line-height: 2rem;
+	margin-bottom: 10%;
+}
+
+.text-left #pap {
+	margin-left: 10%;
+	width: 50%;
+	left: 100%;
+	display: block;
+}
+
+.text-right #pap {
+	width: 100%;
+	text-align: right;
+	right: 100%;
+	display: block;
+	position: relative;
+	margin-top: 50px;
+}
+
+#first {
+	margin-top: 10%;
+}
+
+#last {
+	margin-bottom: 30%;
+}
+
+.footer {
+	margin-top: 10%;
+	font-family: 'din';
+	margin-bottom: 10%;
+	color: darkgray;
+	text-align: center;
+	transition: 0.5s ease;
+	white-space: normal;
+	font-size: 1rem;
+	text-decoration: none;
+	display: block;
+	width: auto;
+}
+
+.footer:hover {
+	opacity: 0.5;
+	transition: 0.5s ease;
+	white-space: normal;
+	font-size: 0.97rem;
+}
+
+#pap a {
+	font-family: 'PT Serif';
+	text-transform: none;
+	color: gray;
+	font-size: 0.9rem;
+}
