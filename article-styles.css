@@ -182,7 +182,7 @@ h1 {
 	overflow: hidden;
 	position: absolute;
 	background-size: cover=;
-	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/consulate.jpeg');
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/directory.jpeg');
 }
 
 .bio {
@@ -240,8 +240,11 @@ h1 {
 	color: #8C8C8C;
 }
 
+.directory {
+	background-image: url(/directory-img.jpg);
+}
+
 .image {
-	transform: translateX(-8px);
 	right: 0px;
 	padding-left: 0;
 	width: 100%;
