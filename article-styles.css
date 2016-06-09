@@ -241,11 +241,13 @@ h1 {
 }
 
 .image {
-	margin-top: 0%;
+	transform: translateX(-8px);
+	right: 0px;
+	padding-left: 0;
 	width: 100%;
 	height: 500px;
 	background-size: cover;
-	display: inline-block;
+	display: block;
 }
 
 .bio-1 {
